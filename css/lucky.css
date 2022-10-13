@@ -1,9 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-body, .modal-body {
+body:not(#home), .modal-body{
     background-color: #fbefdb;
 }   
 
+/*Főoldal*/
+#home{
+    height: 100vh;
+    background-image: url(../img/homebg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .intro{
+    color: white;        
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);    
+}
+
+/*Menü*/
 nav{
     background-color: #1f5b25;
 }
