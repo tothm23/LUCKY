@@ -101,3 +101,18 @@ footer li>img{
 p.szerzo {
     text-align: right;
 }
+
+.box{
+    border: 1px solid #1f5b25;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    background-color: #1f5b25;
+    color: #fff;
+    padding: .5rem;
+}
+
+.box span.badge {
+    margin: .25rem;
+}
