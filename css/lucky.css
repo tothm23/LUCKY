@@ -14,7 +14,8 @@ body:not(#home), .modal-body{
 }
 
 #home .intro{
-    color: white;        
+    color: white;  
+    height: 100vh;     
 }
 
 #home .intro .col-md-8{
