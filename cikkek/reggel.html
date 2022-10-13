@@ -38,20 +38,49 @@
                 <img src="../img/blog/reggel.png" alt="" class="img-fluid blog-img">
             </div>
             <div class="col-md-7 align-self-center">
-                <h1>Reggeli ráhangolódás</h1>                    
+                <h1>Reggeli ráhangolódás</h1>
             </div>
             <div class="col-12 mt-3">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id non aliquam velit necessitatibus officiis commodi amet facere ipsum obcaecati sit quae iste delectus, ipsam dignissimos fuga eligendi, pariatur nulla repudiandae?</p>
-                <p>Est ut, magnam veritatis fugiat recusandae et! Dolorum, vitae illum officia repellat repellendus aut in quisquam aperiam sint! Maxime numquam architecto asperiores, totam provident eligendi? Corporis numquam animi quod tenetur!</p>
-                <p>Ex, ad quisquam. Itaque ex natus modi, magni consequatur possimus quibusdam error dignissimos labore rerum provident asperiores, cupiditate aspernatur totam ipsum eaque cum ipsam rem doloribus quis numquam assumenda commodi.</p>
-                <p>Nulla expedita, quia assumenda nemo quo dicta fuga ullam, dignissimos dolores dolorum quasi doloremque nostrum tempore. Rerum distinctio assumenda pariatur aspernatur quisquam necessitatibus blanditiis quo animi, dignissimos doloribus dolores! Amet.</p>
-                <p>Ad, totam corrupti dolore iusto pariatur accusamus necessitatibus molestias temporibus. Placeat explicabo enim dolores culpa repudiandae sequi nam esse voluptas ullam suscipit! Illo, maxime animi architecto magnam ab eum reiciendis.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id non aliquam velit necessitatibus
+                    officiis commodi amet facere ipsum obcaecati sit quae iste delectus, ipsam dignissimos fuga
+                    eligendi, pariatur nulla repudiandae?</p>
+                <p>Est ut, magnam veritatis fugiat recusandae et! Dolorum, vitae illum officia repellat repellendus aut
+                    in quisquam aperiam sint! Maxime numquam architecto asperiores, totam provident eligendi? Corporis
+                    numquam animi quod tenetur!</p>
+                <p>Ex, ad quisquam. Itaque ex natus modi, magni consequatur possimus quibusdam error dignissimos labore
+                    rerum provident asperiores, cupiditate aspernatur totam ipsum eaque cum ipsam rem doloribus quis
+                    numquam assumenda commodi.</p>
+                <p>Nulla expedita, quia assumenda nemo quo dicta fuga ullam, dignissimos dolores dolorum quasi
+                    doloremque nostrum tempore. Rerum distinctio assumenda pariatur aspernatur quisquam necessitatibus
+                    blanditiis quo animi, dignissimos doloribus dolores! Amet.</p>
+                <p>Ad, totam corrupti dolore iusto pariatur accusamus necessitatibus molestias temporibus. Placeat
+                    explicabo enim dolores culpa repudiandae sequi nam esse voluptas ullam suscipit! Illo, maxime animi
+                    architecto magnam ab eum reiciendis.</p>
                 <p class="szerzo">Szerző: Lucky</p>
             </div>
         </div>
     </article>
     <div class="container">
-    
+        <div class="row">
+            <div class="col-12">
+                <h2>Hozzászólások</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div id="kommentek" class="offset-1 col-11">
+                <p><span class="badge badge-success">Anna</span> Mennyire igaz, amit írtál :)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form action=""></form>
+                    <div class="form-group"><input type="text" class="form-control" id="nev" placeholder="Név"></div>
+                    <div class="form-group"><input type="text" class="form-control" id="szoveg" placeholder="Szöveg"></div>
+                    <div class="form-group"><button class="btn btn-success" id="elkuld" onclick="hozzaszolas()"
+                        type="button">Elküld</button></div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <div class="footer">
@@ -73,9 +102,10 @@
                             <input type="text" class="form-control" placeholder="E-mail
                             " aria-label="E-mail" aria-describedby="button-addon2" id="email">
                             <div class="input-group-append">
-                              <button class="btn btn-success" type="button" id="button-addon2" onclick="feliratkozas();">Feliratkozom</button>
+                                <button class="btn btn-success" type="button" id="button-addon2"
+                                    onclick="feliratkozas();">Feliratkozom</button>
                             </div>
-                          </div>
+                        </div>
                     </form>
                 </div>
             </div>
